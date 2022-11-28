@@ -1,0 +1,4 @@
+What are the functions of Python?
+There are three types of functions in Python:
+Built-in functions, such as help() to ask for help, min() to get the minimum value, print() to print an object to the terminal,… ...
+User-Defined Functions (UDFs), which are functions that users create to help them out; And.

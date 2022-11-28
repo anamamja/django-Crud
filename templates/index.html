@@ -1,0 +1,19 @@
+<h1>Members</h1>
+
+<table border="1">
+{% for x in mypolls %}
+<tr>
+  <td><a href="update/{{ x.id }}">update</a></td>
+<td>{{ x.firstname }}</td>
+<td>{{ x.lastname }}</td>
+  <td><a href="delete/{{ x.id }}">delete</a></td>
+  </tr>
+{% endfor %}
+</table>
+<p>
+<a href="add/">Add member</a>
+</p>
+<p>
+     <a href="upload/">upload</a>
+
+</p>
